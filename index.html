@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="container">
+    <section class="image">
+      <!-- <img src="assets/images/illustration-sign-up-mobile.svg" alt="illustration-sign-up"> -->
+    </section>
+    <section class="form">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li><i class="fas fa-solid fa-circle-check fa-lg"></i>Product discovery and building what matters</li>
+        <li><i class="fas fa-solid fa-circle-check fa-lg"></i>Measuring to ensure updates are a success</li>
+        <li><i class="fas fa-solid fa-circle-check fa-lg"></i>And much more!</li>
+      </ul>
+      <form action="">
+        
+        <label for="email"><b>Email address</b><span id="errorText"></span></label><br>
+        <input class="email" type="text"  placeholder="email@company.com" name="email" required>
+        <button type="submit" class="signupbtn">Subscribe to monthly newsletter</button>
+      </form>
+      
+  </section>
+</div>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+<div class="success hide">
+  <span><i class="fas fa-solid fa-circle-check fa-3x"></i></span>
+  <h1>Thanks for subscribing!</h1>
+  <p>A confirmation email has been sent to <b>ash@loremcompany.com</b>. 
+    Please open it and click the button inside to confirm your subscription.</p>
+  <button class="dismiss">Dismiss message</button>
+</div>
+  <!-- Success message end -->
+  
+  <div class="attribution">
+    Coded by <a href="#">Zinah Zwayen</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
